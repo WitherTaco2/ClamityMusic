@@ -1,0 +1,3 @@
+displayName = Clamity Music Mod
+author = WitherTaco and Musicans
+version = 0.1
