@@ -1,1 +1,47 @@
-# This file will automatically update with entries for new content after a build and reload
+Items: {
+	Placeables: {
+		MusicBoxes: {
+			GiantClamMusicBox: {
+				Tooltip: "'Sentinel of the Sanctum' by Jteoh"
+				DisplayName: Music Box (Giant Clam)
+			}
+
+			PyrogenMusicBox: {
+				Tooltip: By AstroGel
+				DisplayName: Music Box (Pyrogen)
+			}
+
+			ClamityTitleMusicBox: {
+				Tooltip: By Sidetracker
+				DisplayName: Music Box (Clamity Title)
+			}
+
+			ClamitasMusicBox: {
+				Tooltip: By StarvoXD
+				DisplayName: Music Box (Clamitas)
+			}
+
+			EarthElementalMusicBox: {
+				Tooltip: "'Avatar of Azafure' by Jteoh"
+				DisplayName: Music Box (Earth Elemental)
+			}
+
+			AcidRainT2MusicBox: {
+				Tooltip: "'Sulfuric Cloudbrust' by AstroGel"
+				DisplayName: Music Box (Acid Rain Tier 2)
+			}
+
+			CloudElementalMusicBox: {
+				Tooltip: "'Chance of Pain' by Jteoh"
+				DisplayName: Music Box (Cloud Elemental)
+			}
+		}
+	}
+}
+
+Tiles: {
+	GiantClamMusicBoxTile.MapEntry: Giant Clam Music Box Tile
+	ClamityTitleMusicBoxTile.MapEntry: Clamity Title Music Box Tile
+	ClamitasMusicBoxTile.MapEntry: Clamitas Music Box Tile
+	PyrogenMusicBoxTile.MapEntry: Pyrogen Music Box Tile
+}
