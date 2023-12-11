@@ -4,7 +4,7 @@ This is music mod of Clamity Addon. Mod work without Clamity (Only mini-boss the
 [list]
 	[*] Clamity Addon Bosses (Clamitas, Pyrogen)
 	[*] Clamity Main Menu
-	[*] Calamity Mini-Bosses (Earth, Cloud Elementals, Giant Clam)
+	[*] Calamity Mini-Bosses
 	[*] Acid Rain Tier 2
 [/list]
 
@@ -12,6 +12,6 @@ This is music mod of Clamity Addon. Mod work without Clamity (Only mini-boss the
 StarvoXD - Clamitas Music
 AstroGel - Pyrogen, Acid Rain T2 Music
 Sidetracker - Main Menu Music
-Jteoh - Mini-boss Musics
+Jteoh - Calamity Mini-boss Musics
 
 [h1]My discord server:[url=https://discord.gg/7auk3bDb3K] Link[/url][/h1]

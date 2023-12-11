@@ -35,6 +35,21 @@ Items: {
 				Tooltip: "'Chance of Pain' by Jteoh"
 				DisplayName: Music Box (Cloud Elemental)
 			}
+
+			ArmoredDiggerMusicBox: {
+				Tooltip: "'Subterranean Subjugation' by Jteoh"
+				DisplayName: Music Box (Armored Digger)
+			}
+
+			GreatSandSharkMusicBox: {
+				Tooltip: "'Ilmeran Ilbis' by Jteoh"
+				DisplayName: Music Box (Great Sand Shark)
+			}
+
+			PlaguebringerMusicBox: {
+				Tooltip: "'Propagar Praetor' by Jteoh"
+				DisplayName: Music Box (Plaguebringer)
+			}
 		}
 	}
 }
