@@ -8,13 +8,14 @@ using CalamityMod.NPCs.ExoMechs.Ares;
 using CalamityMod.NPCs.ExoMechs.Apollo;
 using CalamityMod.NPCs.ExoMechs.Artemis;
 using CalamityMod.NPCs.ExoMechs.Thanatos;
+using CalamityMod.NPCs.ExoMechs;
 
 namespace ClamityMusic.Scenes
 {
     public class ExoMechdusaScene : ModSceneEffect
     {
         public override int Music => MusicLoader.GetMusicSlot(ClamityMusic.mod, "Sounds/Music/ExoMechdusa");
-        public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
+        public override SceneEffectPriority Priority => (SceneEffectPriority)9;
         public override bool IsSceneEffectActive(Player player)
         {
             for (int i = 0; i < Main.npc.Length; i++)
@@ -26,6 +27,7 @@ namespace ClamityMusic.Scenes
                                || npc.type == ModContent.NPCType<Apollo>()
                                || npc.type == ModContent.NPCType<Artemis>()
                                || npc.type == ModContent.NPCType<ThanatosHead>();
+                bool anyDraedon = npc.type == ModContent.NPCType<Draedon>();
                 if (CalamityWorld.DraedonMechdusa && anyExoMech && player.SafeDirectionTo(npc.Center).Length() < 2000) return true;
             }
             return false;

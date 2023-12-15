@@ -1,13 +1,13 @@
 ﻿using Terraria.ModLoader;
 using Terraria;
-using CalamityMod.NPCs.NormalNPCs;
 using CalamityMod;
+using CalamityMod.NPCs.GreatSandShark;
 
 namespace ClamityMusic.Scenes
 {
-    public class EarthElementalScene : ModSceneEffect
+    public class GreatSandSharkScene : ModSceneEffect
     {
-        public override int Music => MusicLoader.GetMusicSlot(ClamityMusic.mod, "Sounds/Music/EarthElemental");
+        public override int Music => MusicLoader.GetMusicSlot(ClamityMusic.mod, "Sounds/Music/GreatSandShark");
         public override SceneEffectPriority Priority => SceneEffectPriority.Event;
         public override bool IsSceneEffectActive(Player player)
         {
@@ -16,7 +16,7 @@ namespace ClamityMusic.Scenes
                 NPC npc = Main.npc[i];
                 if (npc == null) continue;
                 if (!npc.active) continue;
-                if (npc.type == ModContent.NPCType<Horse>() && player.SafeDirectionTo(npc.Center).Length() < 2000) return true;
+                if (npc.type == ModContent.NPCType<GreatSandShark>() && player.SafeDirectionTo(npc.Center).Length() < 2000) return true;
             }
             return false;
         }
