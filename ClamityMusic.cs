@@ -1,4 +1,5 @@
 using CalamityMod.Buffs.StatDebuffs;
+using Terraria;
 using Terraria.ModLoader;
 
 namespace ClamityMusic
