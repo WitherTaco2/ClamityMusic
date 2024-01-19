@@ -22,28 +22,28 @@ namespace ClamityMusic.MusicBoxes
         public virtual bool Obtainable { get; } = true;
         public override void SetStaticDefaults()
         {
-            ItemID.Sets.CanGetPrefixes[this.Type] = false;
-            ItemID.Sets.ShimmerTransformToItem[this.Type] = 576;
+            ItemID.Sets.CanGetPrefixes[Type] = false;
+            ItemID.Sets.ShimmerTransformToItem[Type] = 576;
             MusicLoader.AddMusicBox(Mod, MusicLoader.GetMusicSlot(Mod, "Sounds/Music/" + MusicName), this.Type, MusicBoxTile, 0);
-            if (this.Obtainable)
+            if (Obtainable)
                 return;
-            this.Item.ResearchUnlockCount = 0;
+            Item.ResearchUnlockCount = 0;
         }
-        public override void SetDefaults() => this.Item.DefaultToMusicBox(this.MusicBoxTile, 0);
+        public override void SetDefaults() => Item.DefaultToMusicBox(this.MusicBoxTile, 0);
     }
     public abstract class MusicBoxTile : ModTile
     {
         public override void SetStaticDefaults()
         {
-            Main.tileFrameImportant[(int)((ModBlockType)this).Type] = true;
-            Main.tileObsidianKill[(int)((ModBlockType)this).Type] = true;
+            Main.tileFrameImportant[Type] = true;
+            Main.tileObsidianKill[Type] = true;
             TileObjectData.newTile.CopyFrom(TileObjectData.Style2x2);
             TileObjectData.newTile.Origin = new Point16(0, 1);
             TileObjectData.newTile.LavaDeath = false;
             TileObjectData.newTile.DrawYOffset = 2;
             TileObjectData.newTile.StyleLineSkip = 2;
-            TileObjectData.addTile((int)((ModBlockType)this).Type);
-            TileID.Sets.DisableSmartCursor[(int)((ModBlockType)this).Type] = true;
+            TileObjectData.addTile(Type);
+            TileID.Sets.DisableSmartCursor[Type] = true;
             this.AddMapEntry(new Color(191, 142, 111), Language.GetText("ItemName.MusicBox"));
         }
 
@@ -52,7 +52,7 @@ namespace ClamityMusic.MusicBoxes
             Player localPlayer = Main.LocalPlayer;
             localPlayer.noThrow = 2;
             localPlayer.cursorItemIconEnabled = true;
-            localPlayer.cursorItemIconID = TileLoader.GetItemDropFromTypeAndStyle(this.Type);
+            localPlayer.cursorItemIconID = TileLoader.GetItemDropFromTypeAndStyle(Type);
         }
 
         public override bool CreateDust(int i, int j, ref int type) => false;

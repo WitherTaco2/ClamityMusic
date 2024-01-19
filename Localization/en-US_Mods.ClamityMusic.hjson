@@ -1,3 +1,4 @@
+//This music box contains a placeholder song
 Items: {
 	Placeables: {
 		MusicBoxes: {
@@ -6,19 +7,19 @@ Items: {
 				DisplayName: Music Box (Giant Clam)
 			}
 
-			PyrogenMusicBox: {
-				Tooltip: By AstroGel
-				DisplayName: Music Box (Pyrogen)
-			}
-
 			ClamityTitleMusicBox: {
 				Tooltip: By Sidetracker
 				DisplayName: Music Box (Clamity Title)
 			}
 
 			ClamitasMusicBox: {
-				Tooltip: By StarvoXD
+				Tooltip: 'clamitas theme' By StarvoXD
 				DisplayName: Music Box (Clamitas)
+			}
+
+			PyrogenMusicBox: {
+				Tooltip: By AstroGel
+				DisplayName: Music Box (Pyrogen)
 			}
 
 			EarthElementalMusicBox: {
