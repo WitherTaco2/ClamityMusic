@@ -13,12 +13,16 @@ Items: {
 			}
 
 			ClamitasMusicBox: {
-				Tooltip: 'clamitas theme' By StarvoXD
+				Tooltip: "'clamitas theme' By StarvoXD"
 				DisplayName: Music Box (Clamitas)
 			}
 
 			PyrogenMusicBox: {
-				Tooltip: By AstroGel
+				Tooltip:
+					'''
+					'This music box contains a placeholder song'
+					'Antarctic Reinforcement' by DM DOKURO
+					'''
 				DisplayName: Music Box (Pyrogen)
 			}
 
@@ -51,6 +55,15 @@ Items: {
 				Tooltip: "'Propagar Praetor' by Jteoh"
 				DisplayName: Music Box (Plaguebringer)
 			}
+
+			WoBMusicBox: {
+				DisplayName: Music Box (Wall of Bronze)
+				Tooltip:
+					'''
+					'This music box contains a placeholder song'
+					'Svet' by Anamnez
+					'''
+			}
 		}
 	}
 }
@@ -60,4 +73,22 @@ Tiles: {
 	ClamityTitleMusicBoxTile.MapEntry: Clamity Title Music Box Tile
 	ClamitasMusicBoxTile.MapEntry: Clamitas Music Box Tile
 	PyrogenMusicBoxTile.MapEntry: Pyrogen Music Box Tile
+}
+
+Configs: {
+	ClamityMusicConfig: {
+		DisplayName: Clamity Music Config
+
+		PyrogenPrototypeTheme: {
+			Label: Pyrogen Prototype Theme
+			Tooltip: ""
+		}
+	}
+
+	PyroMusic: {
+		Tooltip: ""
+		CryogenPlaceholder.Label: Cryogen Placeholder
+		AstroGels.Label: Astro Gels
+		BrimstonePremiums.Label: Brimstone Premiums
+	}
 }

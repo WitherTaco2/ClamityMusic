@@ -15,7 +15,7 @@ namespace ClamityMusic.MusicBoxes
             return ModLoader.GetMod("Clamity") != null;
         }
         public override int MusicBoxTile => ModContent.TileType<PyrogenMusicBoxTile>();
-        public override string MusicName => "PyrogenPrototype";
+        public override string MusicName => "Cryogen";
     }
     public class PyrogenMusicBoxTile : MusicBoxTile
     {

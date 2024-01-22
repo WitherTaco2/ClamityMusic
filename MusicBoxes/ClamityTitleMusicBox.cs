@@ -5,6 +5,7 @@ using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ObjectData;
 using Microsoft.Xna.Framework;
+using ClamityMusic.MusicBoxes.ByJteoh;
 
 namespace ClamityMusic.MusicBoxes
 {
@@ -20,7 +21,8 @@ namespace ClamityMusic.MusicBoxes
         {
             CreateRecipe()
                 .AddIngredient<ClamitasMusicBox>()
-                .AddIngredient<PyrogenMusicBox>()
+                //.AddIngredient<PyrogenMusicBox>()
+                .AddIngredient<WoBMusicBox>()
                 .AddIngredient<GiantClamMusicBox>()
                 .AddIngredient<EarthElementalMusicBox>()
                 .AddIngredient<CloudElementalMusicBox>()

@@ -15,7 +15,7 @@ namespace ClamityMusic.Scenes
                 NPC npc = Main.npc[i];
                 if (npc == null) continue;
                 if (!npc.active) continue;
-                if (npc.GetGlobalNPC<ClamityMusicGlobalNPC>().giantClamHits >= 5 && player.SafeDirectionTo(npc.Center).Length() < 2000) return true;
+                if (npc.GetGlobalNPC<ClamityMusicGlobalNPC>().musicHitTrigger >= 5 && player.SafeDirectionTo(npc.Center).Length() < 2000) return true;
             }
             return false;
         }
