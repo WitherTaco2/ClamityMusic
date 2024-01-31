@@ -64,6 +64,15 @@ Items: {
 					'Svet' by Anamnez
 					'''
 			}
+
+			FrozenHellMusicBox: {
+				DisplayName: Music Box (Frozen Hell)
+				Tooltip: 
+					'''
+					'This music box contains a placeholder song'
+					Underworld theme by Soundbin
+					'''
+			}
 		}
 	}
 }
