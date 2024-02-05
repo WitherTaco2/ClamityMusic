@@ -16,21 +16,11 @@ namespace ClamityMusic
         }
         public override void OnHitByItem(NPC npc, Player player, Item item, NPC.HitInfo hit, int damageDone)
         {
-            /*if (npc.type == ModContent.NPCType<GiantClam>())
-            {
-                if (musicHitTrigger <= 5)
-                    musicHitTrigger++;
-            }*/
-            UpdateMusicTrigger(npc, ModContent.NPCType<GiantClam>(), 5);
+
         }
         public override void OnHitByProjectile(NPC npc, Projectile projectile, NPC.HitInfo hit, int damageDone)
         {
-            /*if (npc.type == ModContent.NPCType<GiantClam>())
-            {
-                if (musicHitTrigger <= 5)
-                    musicHitTrigger++;
-            }*/
-            UpdateMusicTrigger(npc, ModContent.NPCType<GiantClam>(), 5);
+
         }
         private void UpdateMusicTrigger(NPC npc, int type, int maxHits)
         {
