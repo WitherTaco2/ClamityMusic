@@ -1,4 +1,4 @@
-displayName = Clamity and Fanmade Music Mod
+displayName = Clamity Music Mod
 author = WitherTaco and Musicans
 version = 1.0
 modReferences = CalamityMod

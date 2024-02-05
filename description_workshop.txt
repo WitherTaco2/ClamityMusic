@@ -9,9 +9,8 @@ This is music mod of Clamity Addon. Mod work without Clamity (Only mini-boss the
 [/list]
 
 [h1]Credits:[/h1]
-StarvoXD - Clamitas Theme, idea of making clamity addon
+StarvoXD - Clamitas Theme, inspiration of making clamity addon
 AstroGel - Acid Rain T2 Theme
 Sidetracker - Custom Menu Theme
-Jteoh - A lot of Calamity Mini-boss Themes
 
 [h1]My discord server:[url=https://discord.gg/7auk3bDb3K] Link[/url][/h1]
