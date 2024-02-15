@@ -67,7 +67,7 @@ Items: {
 
 			FrozenHellMusicBox: {
 				DisplayName: Music Box (Frozen Hell)
-				Tooltip: 
+				Tooltip:
 					'''
 					'This music box contains a placeholder song'
 					Underworld theme by Soundbin

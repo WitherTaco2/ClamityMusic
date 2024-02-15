@@ -1,11 +1,5 @@
-﻿using Terraria.ModLoader;
-using Terraria;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.Localization;
-using Terraria.ObjectData;
-using Microsoft.Xna.Framework;
-using ClamityMusic.MusicBoxes.ByJteoh;
+﻿using Terraria.ID;
+using Terraria.ModLoader;
 
 namespace ClamityMusic.MusicBoxes
 {
@@ -23,9 +17,7 @@ namespace ClamityMusic.MusicBoxes
                 .AddIngredient<ClamitasMusicBox>()
                 //.AddIngredient<PyrogenMusicBox>()
                 .AddIngredient<WoBMusicBox>()
-                .AddIngredient<GiantClamMusicBox>()
-                .AddIngredient<EarthElementalMusicBox>()
-                .AddIngredient<CloudElementalMusicBox>()
+                .AddIngredient<FrozenHellMusicBox>()
 
                 .AddTile(TileID.TinkerersWorkbench)
                 .Register();
