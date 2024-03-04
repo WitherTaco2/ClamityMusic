@@ -1,5 +1,5 @@
 displayName = Clamity Music Mod
 author = WitherTaco and Musicans
-version = 1.0
+version = 1.0.1
 modReferences = CalamityMod
 weakReferences = Clamity

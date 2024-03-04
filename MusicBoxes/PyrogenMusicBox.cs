@@ -1,10 +1,4 @@
-﻿using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.Localization;
-using Terraria.ModLoader;
-using Terraria.ObjectData;
-using Terraria;
-using Microsoft.Xna.Framework;
+﻿using Terraria.ModLoader;
 
 namespace ClamityMusic.MusicBoxes
 {
@@ -15,7 +9,7 @@ namespace ClamityMusic.MusicBoxes
             return ModLoader.GetMod("Clamity") != null;
         }
         public override int MusicBoxTile => ModContent.TileType<PyrogenMusicBoxTile>();
-        public override string MusicName => "Cryogen";
+        public override string MusicName => "Pyrogen";
     }
     public class PyrogenMusicBoxTile : MusicBoxTile
     {
