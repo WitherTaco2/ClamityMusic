@@ -9,6 +9,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="a.txt" />
+    <None Remove="changelog.txt" />
     <None Remove="description_workshop.txt" />
   </ItemGroup>
   <ItemGroup>

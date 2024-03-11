@@ -1,5 +1,4 @@
-﻿using Terraria.ID;
-using Terraria.ModLoader;
+﻿using Terraria.ModLoader;
 
 namespace ClamityMusic.MusicBoxes
 {
@@ -11,7 +10,7 @@ namespace ClamityMusic.MusicBoxes
         }
         public override int MusicBoxTile => ModContent.TileType<ClamityTitleMusicBoxTile>();
         public override string MusicName => "Title";
-        public override void AddRecipes()
+        /*public override void AddRecipes()
         {
             CreateRecipe()
                 .AddIngredient<ClamitasMusicBox>()
@@ -21,7 +20,7 @@ namespace ClamityMusic.MusicBoxes
 
                 .AddTile(TileID.TinkerersWorkbench)
                 .Register();
-        }
+        }*/
     }
     public class ClamityTitleMusicBoxTile : MusicBoxTile
     {

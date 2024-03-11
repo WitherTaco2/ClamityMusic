@@ -18,17 +18,8 @@ Items: {
 			}
 
 			PyrogenMusicBox: {
-				Tooltip:
-					'''
-					'This music box contains a placeholder song'
-					'Antarctic Reinforcement' by DM DOKURO
-					'''
+				Tooltip: "'Searing Ferocity' by Brimston Premium"
 				DisplayName: Music Box (Pyrogen)
-			}
-
-			EarthElementalMusicBox: {
-				Tooltip: "'Avatar of Azafure' by Jteoh"
-				DisplayName: Music Box (Earth Elemental)
 			}
 
 			AcidRainT2MusicBox: {
@@ -36,32 +27,12 @@ Items: {
 				DisplayName: Music Box (Acid Rain Tier 2)
 			}
 
-			CloudElementalMusicBox: {
-				Tooltip: "'Chance of Pain' by Jteoh"
-				DisplayName: Music Box (Cloud Elemental)
-			}
-
-			ArmoredDiggerMusicBox: {
-				Tooltip: "'Subterranean Subjugation' by Jteoh"
-				DisplayName: Music Box (Armored Digger)
-			}
-
-			GreatSandSharkMusicBox: {
-				Tooltip: "'Ilmeran Ilbis' by Jteoh"
-				DisplayName: Music Box (Great Sand Shark)
-			}
-
-			PlaguebringerMusicBox: {
-				Tooltip: "'Propagar Praetor' by Jteoh"
-				DisplayName: Music Box (Plaguebringer)
-			}
-
 			WoBMusicBox: {
 				DisplayName: Music Box (Wall of Bronze)
 				Tooltip:
 					'''
 					'This music box contains a placeholder song'
-					'Svet' by Anamnez
+					'Diabolus Ex Machina' by Perturbator
 					'''
 			}
 
@@ -70,7 +41,7 @@ Items: {
 				Tooltip:
 					'''
 					'This music box contains a placeholder song'
-					Underworld theme by Soundbin
+					Alternative Underworld theme by Soundbin
 					'''
 			}
 		}
