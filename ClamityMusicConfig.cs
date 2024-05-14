@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel;
 using Terraria.ModLoader.Config;
 
 namespace ClamityMusic
@@ -22,5 +17,8 @@ namespace ClamityMusic
         //[Label("$Mods.TooltipIcon.TooltipIconConfig.Label.ItemIDTooltip")]
         [DefaultValue(PyroMusic.CryogenPlaceholder)]
         public PyroMusic PyrogenPrototypeTheme;
+
+        [DefaultValue(true)]
+        public bool UsesT2AcidRainTheme;
     }
 }

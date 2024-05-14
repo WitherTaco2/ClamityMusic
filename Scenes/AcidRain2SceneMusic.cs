@@ -1,8 +1,7 @@
-﻿using CalamityMod.NPCs.NormalNPCs;
-using Terraria.ModLoader;
-using Terraria;
+﻿using CalamityMod;
 using CalamityMod.Events;
-using CalamityMod;
+using Terraria;
+using Terraria.ModLoader;
 
 namespace ClamityMusic.Scenes
 {
