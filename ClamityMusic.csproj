@@ -11,9 +11,6 @@
     <None Remove="description_workshop.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Clamity\Clamity.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="CalamityMod">
       <HintPath>CalamityMod.dll</HintPath>
     </Reference>
