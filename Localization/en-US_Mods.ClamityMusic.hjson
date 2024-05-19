@@ -63,6 +63,11 @@ Configs: {
 			Label: Pyrogen Prototype Theme
 			Tooltip: ""
 		}
+
+		UsesT2AcidRainTheme: {
+			Label: Uses T2 Acid Rain Theme
+			Tooltip: ""
+		}
 	}
 
 	PyroMusic: {
