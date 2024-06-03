@@ -1,3 +1,1 @@
-Added Pyrogen Theme
-Changed Wall of Bronze theme
-Clamity Title Music Box now dropped from Starter Bag (instead of craft)
+Clamity Mod now requare Music Mod
