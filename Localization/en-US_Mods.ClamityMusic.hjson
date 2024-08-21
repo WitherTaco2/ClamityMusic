@@ -2,28 +2,23 @@
 Items: {
 	Placeables: {
 		MusicBoxes: {
-			GiantClamMusicBox: {
-				Tooltip: "'Sentinel of the Sanctum' by Jteoh"
-				DisplayName: Music Box (Giant Clam)
-			}
-
 			ClamityTitleMusicBox: {
-				Tooltip: By Sidetracker
+				Tooltip: Plays unnamed theme By Sidetracker
 				DisplayName: Music Box (Clamity Title)
 			}
 
 			ClamitasMusicBox: {
-				Tooltip: "'clamitas theme' By StarvoXD"
+				Tooltip: "Plays 'clamitas theme' By StarvoXD"
 				DisplayName: Music Box (Clamitas)
 			}
 
 			PyrogenMusicBox: {
-				Tooltip: "'Searing Ferocity' by Brimston Premium"
+				Tooltip: "Plays 'Searing Ferocity' by Brimston Premium"
 				DisplayName: Music Box (Pyrogen)
 			}
 
 			AcidRainT2MusicBox: {
-				Tooltip: "'Sulfuric Cloudbrust' by AstroGel"
+				Tooltip: "Plays 'Sulfuric Cloudbrust' by AstroGel"
 				DisplayName: Music Box (Acid Rain Tier 2)
 			}
 
@@ -32,7 +27,7 @@ Items: {
 				Tooltip:
 					'''
 					'This music box contains a placeholder song'
-					'Diabolus Ex Machina' by Perturbator
+					Plays 'Diabolus Ex Machina' by Perturbator
 					'''
 			}
 
@@ -41,7 +36,7 @@ Items: {
 				Tooltip:
 					'''
 					'This music box contains a placeholder song'
-					Alternative Underworld theme by Soundbin
+					Plays Alternative Underworld theme by Soundbin
 					'''
 			}
 		}
