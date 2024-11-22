@@ -8,17 +8,17 @@ Items: {
 			}
 
 			ClamitasMusicBox: {
-				Tooltip: "Plays 'clamitas theme' By StarvoXD"
+				Tooltip: Plays 'clamitas theme' By StarvoXD
 				DisplayName: Music Box (Clamitas)
 			}
 
 			PyrogenMusicBox: {
-				Tooltip: "Plays 'Searing Ferocity' by Brimston Premium"
+				Tooltip: Plays 'Searing Ferocity' by Brimston Premium
 				DisplayName: Music Box (Pyrogen)
 			}
 
 			AcidRainT2MusicBox: {
-				Tooltip: "Plays 'Sulfuric Cloudbrust' by AstroGel"
+				Tooltip: Plays 'Sulfuric Cloudbrust' by AstroGel
 				DisplayName: Music Box (Acid Rain Tier 2)
 			}
 
