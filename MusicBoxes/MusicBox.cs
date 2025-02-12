@@ -1,20 +1,15 @@
-﻿using Microsoft.Xna.Framework.Graphics;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using Terraria;
+using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
-using Microsoft.Xna.Framework;
 
 namespace ClamityMusic.MusicBoxes
 {
-    public abstract class MusicBox : ModItem, ILocalizedModType, IModType
+    public abstract class MusicBox : ModItem, ILocalizedModType
     {
         public new string LocalizationCategory => "Items.Placeables.MusicBoxes";
         public abstract int MusicBoxTile { get; }

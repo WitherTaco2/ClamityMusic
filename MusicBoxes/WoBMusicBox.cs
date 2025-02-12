@@ -6,7 +6,7 @@ namespace ClamityMusic.MusicBoxes
     {
         public override bool IsLoadingEnabled(Mod mod)
         {
-            return ModLoader.GetMod("Clamity") != null;
+            return ModLoader.HasMod("Clamity");
         }
         public override int MusicBoxTile => ModContent.TileType<WoBMusicBoxTile>();
         public override string MusicName => "WallOfBronze";

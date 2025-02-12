@@ -1,12 +1,4 @@
-﻿using System;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.Localization;
-using Terraria.ModLoader;
-using Terraria.ObjectData;
-using Terraria;
-using Microsoft.Xna.Framework;
-using Terraria.ModLoader.IO;
+﻿using Terraria.ModLoader;
 
 namespace ClamityMusic.MusicBoxes
 {
@@ -14,7 +6,7 @@ namespace ClamityMusic.MusicBoxes
     {
         public override bool IsLoadingEnabled(Mod mod)
         {
-            return ModLoader.GetMod("Clamity") != null;
+            return ModLoader.HasMod("Clamity");
         }
         public override int MusicBoxTile => ModContent.TileType<ClamitasMusicBoxTile>();
         public override string MusicName => "Clamitas";

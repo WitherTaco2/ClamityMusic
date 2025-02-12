@@ -1,12 +1,7 @@
-﻿using Terraria.ModLoader;
-using Terraria;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.Localization;
-using Terraria.ObjectData;
-using Microsoft.Xna.Framework;
-using CalamityMod.Items.Materials;
+﻿using CalamityMod.Items.Materials;
 using CalamityMod.Items.Placeables;
+using Terraria.ID;
+using Terraria.ModLoader;
 
 namespace ClamityMusic.MusicBoxes
 {
@@ -16,7 +11,6 @@ namespace ClamityMusic.MusicBoxes
         public override string MusicName => "AcidRain2";
         public override void AddRecipes()
         {
-
             CreateRecipe()
                 .AddIngredient(ItemID.MusicBox)
                 .AddIngredient<Acidwood>(10)
