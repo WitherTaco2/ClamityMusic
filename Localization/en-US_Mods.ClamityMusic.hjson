@@ -39,6 +39,11 @@ Items: {
 					Plays Alternative Underworld theme by Soundbin
 					'''
 			}
+
+			PyrogenGFBMusicBox: {
+				DisplayName: Music Box (Cryogen?)
+				Tooltip: Plays 'Antarctic Ferocity' by Brimston Premium
+			}
 		}
 	}
 }
